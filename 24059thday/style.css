@@ -1,0 +1,43 @@
+img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 10px darkblue;
+    padding: 15px;
+}
+
+#sundar,
+#shant,
+#satya,
+#salil,
+#michael,
+#masayo,
+#jay,
+#george,
+#arvind,
+#brian,
+#pekka,
+#rajesh {
+    border-radius: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+.india:hover {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.rotateImg {
+    transition: transform 0.5s ease;
+}
+
+.rotateImg:hover {
+    transform: rotate(360deg);
+}
